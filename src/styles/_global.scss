@@ -1,0 +1,32 @@
+body {
+    font-size: 14px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.favorite {
+    padding-top: 40px;
+}
+
+.container {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+$color_1: rgb(45, 45, 56);
+$color_2: rgb(165, 165, 165);
+$color_3: rgb(255, 255, 255);
+$color_4: rgb(240, 97, 72);
